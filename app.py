@@ -6,6 +6,12 @@ import pickle
 
 st.write("""
 # Credit Card Approval Prediction App
+val1 = input("Enter your value: ")
+val2 = input("Enter your value: ")
+if val1 > val2:
+    print({val1} is greater)
+else:
+    print({val2} is greater)
 
 This app predicts the credit card approval probablity
 """)
