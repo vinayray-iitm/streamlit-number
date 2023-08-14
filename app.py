@@ -18,7 +18,7 @@ value3  = st.number_input("select one more number")
 if value1 > value2:
     st.write("value1 is greater")
 else:
-    st.write("value1 is greater")
+    st.write("value2 is greater")
 
 st.header('User Input Parameters')
 st.subheader('User Input parameters')
