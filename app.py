@@ -5,9 +5,9 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 st.write("""
-# Credit Card Approval Prediction App
+# Number Comparator
 
-This app predicts the credit card approval probablity
+This app will compare two given  numbers
 """)
 #Get Input
 
