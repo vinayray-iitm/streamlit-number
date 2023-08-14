@@ -11,9 +11,9 @@ This app will compare two given  numbers
 """)
 #Get Input
 
-value1  = st.number_input("select a number")
-value2  = st.number_input("select another number")
-value3  = st.number_input("select one more number")
+value1  = st.number_input("select a number", min_value = 0)
+value2  = st.number_input("select another number", min_value = 0)
+value3  = st.number_input("select one more number", min_value = 0)
 
 if value1 > value2:
     st.write("value1 is greater")
