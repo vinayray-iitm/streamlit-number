@@ -27,11 +27,3 @@ else:
         st.subheader("The largest of the 3 numbers is num3 ")
 
     
-
-st.header('User Input Parameters')
-st.subheader('User Input parameters')
-st.subheader('Pre-processed Input to the Model')
-st.subheader('Class labels and their corresponding index number')
-st.subheader('Prediction')
-st.subheader('Prediction Probability')
-# st.write(prediction_proba)
