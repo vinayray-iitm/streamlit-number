@@ -11,13 +11,14 @@ This app predicts the credit card approval probablity
 """)
 #Get Input
 
-val1 = input("Enter your value: ")
-val2 = input("Enter your value: ")
-if val1 > val2:
-    print({val1} is greater)
-else:
-    print({val2} is greater)
+value1  = st.number_input("select a number")
+value2  = st.number_input("select another number")
+value3  = st.number_input("select one more number")
 
+if value1 > value2:
+    st.write("value1 is greater")
+else:
+    st.write("value1 is greater")
 
 st.header('User Input Parameters')
 st.subheader('User Input parameters')
