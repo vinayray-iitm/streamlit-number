@@ -14,10 +14,17 @@ This app will compare two given  numbers
 num1  = st.number_input("select a number : num1", min_value = 0)
 num2  = st.number_input("select another number : num2", min_value = 0)
 num3  = st.number_input("select one more number :  num3", min_value = 0)
-if (num1 > num2):
-        if  (num1 > num3):
-           st.header('Result' )
-        #st.subheader("The largest of the 3 numbers is : ", num1)
+if (num1 > num2) and (num1 > num3):
+        largest_num = num1
+elif (num2 > num1) and (num2 > num3):
+        largest_num = num2
+else:
+        largest_num = num3
+st.write("The largest of the 3 numbers is : ", largest_num)
+# if (num1 > num2):
+#         if  (num1 > num3):
+#            st.header('Result' )
+#         #st.subheader("The largest of the 3 numbers is : ", num1)
 # elif (num2 > num1) and (num2 > num3):
         
 #         st.header('Result' , num2)
