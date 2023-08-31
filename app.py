@@ -24,6 +24,6 @@ elif (num2 > num1) and (num2 > num3):
 else:
         
         st.header('Result')
-        st.subheader("The largest of the 3 numbers is :" , num3)
+        # st.subheader("The largest of the 3 numbers is :" , num3)
 
     
